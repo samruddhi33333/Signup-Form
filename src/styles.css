@@ -1,0 +1,67 @@
+/* Apply basic styles to the page */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* Signup form container */
+.signup-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 320px; /* Reduced width */
+    text-align: center;
+}
+
+/* Form title */
+h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Input fields */
+input {
+    width: 90%; /* Reduced width */
+    padding: 8px; /* Smaller padding */
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+/* Error message */
+.error {
+    color: red;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+}
+
+/* Signup button */
+button {
+    width: 90%; /* Reduced width */
+    padding: 8px;
+    background: linear-gradient(135deg, #4CAF50, #008CBA); /* New gradient color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #45a049, #007bb5); /* Slightly darker gradient */
+}
+
+/* Responsive: Mobile-friendly */
+@media (max-width: 400px) {
+    .signup-container {
+        width: 95%;
+    }
+}
